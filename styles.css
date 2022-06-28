@@ -1,0 +1,123 @@
+
+#canvas {
+    background-color: white;
+    box-shadow: 5px 5px 10px 2px grey;
+}
+
+.painting {
+    background-color: grey;
+    border: 10px solid grey;
+    border-radius: 5px;
+    width: 400px;
+    height: 395px;
+}
+.pixel {
+    width: 20px;
+    height: 20px;
+    border-radius: 1px;
+    border: 1px solid grey;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+}
+
+.container {
+    flex-direction: column;
+    width: 420px;
+}
+
+.color-menu {
+    padding-top: 5px;
+    width: 5 px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 5%;
+}
+.colors {
+    border: 2px solid grey;
+    border-radius: 25%;
+    box-shadow: 5px 5px 10px 2px grey;
+}
+.clear {
+    flex: auto;
+    align-items: center;
+    margin: 10px;
+}
+#currentColor {
+    width: 40px;
+    height: 380px;
+    background-color: gainsboro;
+    border: 5px solid grey;
+    box-shadow: 5px 5px 10px 2px grey;
+    margin: 15px;
+    margin-top: 10px;
+    border-radius: 2%;
+}
+h1{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: whitesmoke;
+}
+h6 {
+   text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: grey;  
+   border-bottom: 1px whitesmoke solid;
+   
+}
+.color-menu button {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+.clear-container {
+    width: 100px;
+    height:70px;
+    margin-top: 20px;
+}
+.clear {
+    color: grey;
+    text-align: center;
+    border: 2px solid grey;
+    width: 70px;
+    height: 25px;
+    box-shadow: 5px 5px 10px 2px grey;
+    margin: 10px;
+}
+.save {
+   color: grey;
+   text-align: center;
+   border: 2px solid grey;
+   width: 70px;
+   height: 25px;
+   box-shadow: 5px 5px 10px 2px grey;
+   margin: 10px;
+}
+.load {
+    color: grey;
+    text-align: center;
+    border: 2px solid grey;
+    width: 70px;
+    height: 25px;
+    box-shadow: 5px 5px 10px 2px grey;
+    margin: 10px;
+ }
+ .flood {
+    color: grey;
+    text-align: center;
+    border: 2px solid grey;
+    width: 70px;
+    height: 25px;
+    box-shadow: 5px 5px 10px 2px grey;
+    margin: 10px;
+ }
+.column {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items:flex-start;
+}
